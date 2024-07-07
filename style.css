@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 
 body{
     display: flex;
     cursor: default;
+    background-color: beige;
+    overflow: hidden;
 }
 
 .container{
@@ -13,7 +17,14 @@ body{
     margin: 250px auto;
     border-radius: 12px;
     box-shadow: 7px 7px 10px gray;
+    background-color: white;
+    font-family: Karla;
     
+    
+}
+
+.card-content p{
+    font-size: small;
 }
 
 .card-header{
@@ -50,10 +61,10 @@ body{
     position: absolute;
     width: 90px;
     height: 20px;
-    transform: translateY(-420px);
-    border: none;
+    transform: translateY(-400px);
+    border: 2px solid khaki;
     border-radius: 3px;
-    background-color:khaki;
+    background-color:beige;
 }
 
 .banner p{
@@ -73,4 +84,54 @@ body{
 
 .rating p{
     margin-left: 12px;
+}
+
+.container div.desc{
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    
+    position: static;
+    
+    transform: translate(-320px, -320px);
+    padding: 8px;
+    
+    background-color: transparent;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: end;
+    font-size: small;
+    
+    font-family: Karla;
+}
+
+@media (max-width: 600px)
+{
+    .container div.desc{
+        box-sizing: border-box;
+        width: 300px;
+        height: 250px;
+        
+        position: static;
+        
+        transform: translate(-20px, -650px);
+        padding: 8px;
+        
+        background-color: transparent;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        text-align: center;
+        font-size: small;
+        
+    }
+
+    .container{
+        margin: 180px auto;
+    }
 }
