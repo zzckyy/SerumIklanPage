@@ -1,11 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 
+
+
 body{
-    display: flex;
+    
     cursor: default;
     background-color: beige;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-family: Karla;
+
+}
+
+.nav .nav-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 20%;
+}
+
+.nav .nav-kanan ul li{
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.nav-kiri{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.nav-kiri i{
+    font-size: 30px;
 }
 
 .container{
@@ -52,9 +96,10 @@ body{
     width: 100%;
     height: 40px;
     border: 1px solid black;
-    background-color: gainsboro;
+    background-color: beige;
     border-radius: 50px;
     cursor: pointer;
+    padding: 0;
 }
 
 .banner{
@@ -110,6 +155,28 @@ body{
 
 @media (max-width: 600px)
 {
+    .nav{
+        padding: 5px;
+        align-items: start;
+        height: 80px;
+        justify-content: space-around;
+    }
+
+    .nav .nav-kanan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        width: auto;
+    }
+    
+    .nav .nav-kanan ul li{
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
     .container div.desc{
         box-sizing: border-box;
         width: 300px;
@@ -134,4 +201,6 @@ body{
     .container{
         margin: 180px auto;
     }
+
+
 }
