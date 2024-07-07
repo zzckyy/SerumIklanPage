@@ -1,0 +1,76 @@
+
+body{
+    display: flex;
+    cursor: default;
+}
+
+.container{
+    width: 300px;
+    height:450px;
+    border: 1px solid rgb(200, 200, 200);
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 250px auto;
+    border-radius: 12px;
+    box-shadow: 7px 7px 10px gray;
+    
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img{
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+.card-content button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.card-content button:hover{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.banner{
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    transform: translateY(-420px);
+    border: none;
+    border-radius: 3px;
+    background-color:khaki;
+}
+
+.banner p{
+    text-align: center;
+    transform: translateY(-5px);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+
+.rating p{
+    margin-left: 12px;
+}
