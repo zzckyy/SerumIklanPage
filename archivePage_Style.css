@@ -132,6 +132,7 @@ section{
 }
 
 .banner{
+    display: none;
     position: absolute;
     width: 90px;
     height: 20px;
