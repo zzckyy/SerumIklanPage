@@ -160,3 +160,60 @@ section{
 .rating p{
     margin-left: 12px;
 }
+
+@media (max-width: 600px)
+{
+
+    section{
+    
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    body header{
+        background-color: transparent;
+        position: absolute;
+        margin: 40px 10%;
+        width: 80%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Karla;
+        border: 0px solid bisque;
+    }
+
+    .nav{
+        padding: 5px;
+        align-items: start;
+        height: 80px;
+        justify-content: space-around;
+    }
+
+    .nav .nav-kanan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        width: auto;
+    }
+    
+    .nav .nav-kanan ul li{
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
+
+    .container{
+        margin: 10px auto;
+    }
+
+
+}
