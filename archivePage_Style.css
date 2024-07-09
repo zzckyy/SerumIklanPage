@@ -8,6 +8,10 @@ body{
     padding: 0;
 }
 
+body a{
+    text-decoration: none;
+}
+
 
 body header{
     background-color: transparent;
@@ -28,6 +32,52 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-family: Karla;
+
+}
+
+.nav .nav-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 20%;
+}
+
+.nav .nav-kanan ul li{
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.nav-kiri{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.nav-kiri i{
+    font-size: 30px;
+}
+
+.nav-kiri a{
+    text-decoration: none;
 }
 
 

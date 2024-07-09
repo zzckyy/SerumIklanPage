@@ -11,6 +11,10 @@ body{
     padding: 0;
 }
 
+body a{
+    text-decoration: none;
+}
+
 .nav{
     box-sizing: border-box;
     margin: 0;
