@@ -7,7 +7,6 @@ body{
     
     cursor: default;
     background-color: beige;
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -50,6 +49,10 @@ body{
 }
 .nav-kiri i{
     font-size: 30px;
+}
+
+.nav-kiri a{
+    text-decoration: none;
 }
 
 .container{
